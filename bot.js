@@ -7,7 +7,7 @@ client.on('ready', () => {
 });
  
 
-var PrEfix = "-";
+var PrEfix = ".";
 client.on('message', message => {
   if (!message.content.startsWith(PrEfix)) return;
   var args = message.content.split(' ').slice(1);
